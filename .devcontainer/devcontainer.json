@@ -1,0 +1,10 @@
+{
+	"name": "Ona Python",
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+	"features": {
+		"ghcr.io/devcontainers/features/python:1": {
+			"version": "3.11"
+		}
+	},
+	"postCreateCommand": "pip3 install -r requirements.txt"
+}
